@@ -1,5 +1,5 @@
-# Autor: Lomakin Nikita
-
+## Трек: Разработка бизнес-приложений CodeCup2024
+**Автор: Ломакин Никита Евгеньевич**
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
