@@ -1,7 +1,7 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import "./App.scss";
 import { useState, DragEvent } from "react";
-import { Edtior } from "./components/Editor/Editor";
+import { Editor } from "./components/Editor/Editor";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -82,7 +82,7 @@ function App() {
           </Button>
         </Box>
       ) : (
-        <Edtior image={preview} />
+        <Editor image={preview} />
       )}
     </>
   );
